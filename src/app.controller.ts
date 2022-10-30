@@ -2,7 +2,7 @@ import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common'
 import { async } from 'rxjs';
 import { App } from './app';
 import { AppService } from './app.service';
-import { CreateAppDto } from './create-app.dto';
+import { CreateAppDto } from './dto/create-app.dto';
 
 @Controller('cars')
 export class AppController {

@@ -30,7 +30,7 @@ export class AppService {
   update(app: App) {
     const appsArray = this.getById(app.id);
     if(appsArray){
-        appsArray.description = appsArray.description;
+        appsArray.description = app.description;
     }
     return appsArray;
   }
